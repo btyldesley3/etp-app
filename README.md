@@ -113,6 +113,8 @@ The backend is built with **Spring Boot 3** and integrates with **OIDC (Keycloak
 
 ## Project Structure
 
+```text
+
 ├── src/main/java/com/etp/tickets
 ├── controller/ # REST controllers (e.g., /api/v1/events, /tickets, /validate)
 │ ├── service/ # Business services
@@ -127,6 +129,8 @@ The backend is built with **Spring Boot 3** and integrates with **OIDC (Keycloak
 │ └── application-dev.yml
 │
 ├── docker-compose.yml # Local dev stack (Postgres, Adminer, Keycloak)
+
+```
 
 ## Development Prerequisites
 
